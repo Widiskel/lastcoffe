@@ -1,0 +1,46 @@
+name: lastcoffee
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_native_splash: ^2.2.5
+  flutter_launcher_icons: 
+   git:
+     url: https://github.com/Davenchy/flutter_launcher_icons.git
+     ref: fixMinSdkParseFlutter2.8
+  shared_preferences: ^2.0.15
+  firebase_auth: ^3.4.2
+  firebase_core: ^1.19.2
+  cloud_firestore: ^3.3.0
+
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/img/
+  uses-material-design: true
+
+flutter_native_splash:
+  color: "#000000"
+  image: "assets/img/splashimg.png"
+  android: true
+  ios: false
+
+  
+flutter_icons:
+  image_path: "assets/img/logoapp.png"
+  android: true
+  ios: false
+
+

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "143463233680",
+    "firebase_url": "https://lastcoffee-1b8a3-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lastcoffee-1b8a3",
+    "storage_bucket": "lastcoffee-1b8a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:143463233680:android:ed7173bdd366bf36504015",
+        "android_client_info": {
+          "package_name": "com.widi.lastcoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "143463233680-uhoianias9h2p32813qduclq74d4qscc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTraXEG9zf1teo9PaEr1_kev3pWBuJ5l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "143463233680-uhoianias9h2p32813qduclq74d4qscc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
