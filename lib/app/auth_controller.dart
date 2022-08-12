@@ -162,7 +162,8 @@ class AuthController extends GetxController {
       UserCredential user = await auth.signInWithEmailAndPassword(
           email: email.trim(), password: password.trim());
       if (user.user!.emailVerified) {
-        Get.toNamed(Routes.MENU);
+        getuserinfo();
+        Get.offAllNamed(Routes.MENU);
       } else {
         Get.defaultDialog(
           title: "Email Not Verified",
@@ -273,6 +274,7 @@ class AuthController extends GetxController {
 
   Future<void> signout() async {
     await auth.signOut();
+    em = '';
     Get.toNamed(Routes.AUTHPAGE);
   }
 

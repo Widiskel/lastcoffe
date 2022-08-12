@@ -9,15 +9,14 @@ import 'package:lastcoffee/app/modules/onboarding/views/onboarding_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'app/auth_controller.dart';
 import 'app/routes/app_pages.dart';
-import 'firebase_options.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   await Firebase.initializeApp(
-    //jika dijalankan menggunakan web
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+      //jika dijalankan menggunakan web uncomment options
+      // options: DefaultFirebaseOptions.currentPlatform,
+      );
   runApp(MyApp());
 }
 

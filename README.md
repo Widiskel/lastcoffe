@@ -1,16 +1,26 @@
 # lastcoffe
 
-A new Flutter project.
+ini adalah project aplikasi Pos dengan nama lastcoffee, namun belum sepenuhnya selesai karena saya membuat project ini hanya untuk submission pada course dicodeing "Membuat aplikasi flutter untuk pemula". pada project ini saya belajar dan menerapkan penggunaan shared preference, firebase auth, firebase firestore, dan firebase storage.
 
-## Getting Started
+referensi design yang digunakan :
+https://www.figma.com/file/GPhQxZ4PE7tGtRy1ue8YL5/Coffee-Shop-Mobile-App-Design-(Community)?node-id=0%3A1
 
-This project is a starting point for a Flutter application.
+dependencies yang digunakan :
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  flutter: 
+    sdk: flutter
+  flutter_native_splash: ^2.2.5
+  flutter_launcher_icons: 
+   git:
+     url: https://github.com/Davenchy/flutter_launcher_icons.git
+     ref: fixMinSdkParseFlutter2.8
+  shared_preferences: ^2.0.15
+  firebase_auth: ^3.4.2
+  firebase_core: ^1.19.2
+  cloud_firestore: ^3.3.0
+  firebase_storage: ^10.3.2
