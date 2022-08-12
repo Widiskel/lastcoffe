@@ -1,6 +1,6 @@
 # lastcoffe
 
-ini adalah project aplikasi Pos dengan nama lastcoffee, namun belum sepenuhnya selesai karena saya membuat project ini hanya untuk submission pada course dicodeing "Membuat aplikasi flutter untuk pemula". pada project ini saya belajar dan menerapkan penggunaan shared preference, firebase auth, firebase firestore, dan firebase storage.
+ini adalah project aplikasi Pos dengan nama lastcoffee, namun belum sepenuhnya selesai karena saya membuat project ini hanya untuk submission pada course dicoding "Membuat aplikasi flutter untuk pemula". pada project ini saya belajar dan menerapkan penggunaan shared preference, firebase auth, firebase firestore, dan firebase storage.
 
 referensi design yang digunakan :
 https://www.figma.com/file/GPhQxZ4PE7tGtRy1ue8YL5/Coffee-Shop-Mobile-App-Design-(Community)?node-id=0%3A1
