@@ -12,18 +12,8 @@ class MenuController extends GetxController {
     super.onInit();
   }
 
-  @override
-  Future<void> onReady() async {
-    final authController = Get.find<AuthController>();
-    authController.getuserinfo();
-    uemail.value = authController.em;
-    super.onReady();
-  }
-
   RxString uemail = ''.obs;
   FirebaseFirestore db = FirebaseFirestore.instance;
-  final Stream<QuerySnapshot<Map<String, dynamic>>> coffeeStream =
-      FirebaseFirestore.instance.collection('coffee').snapshots();
 
   final Stream<QuerySnapshot> cfstream =
       FirebaseFirestore.instance.collection('coffee').snapshots();
